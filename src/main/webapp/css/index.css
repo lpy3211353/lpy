@@ -1,0 +1,55 @@
+/*主体*/
+#hd{
+    width:1263px;
+    height:1130px;
+    margin:30px auto;
+}
+#hd .center{
+    text-align: center;
+}
+#hd .center h2{
+    font-size: 45px;
+    letter-spacing: 2px;
+    color:#666;
+    margin:10px 0;
+}
+#hd .center p{
+    color:#666;
+    margin:10px 0;
+}
+
+/*图片介绍区*/
+#hd figure{
+    display: inline-block;
+    width: 380px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    margin:15px 12px;
+    padding:4px;
+    position: relative;
+}
+#hd figure img{
+    /*去掉图片与容器间的缝隙，具体为啥能去掉不知道*/
+    vertical-align: middle;
+}
+#hd figcaption{
+    color:#777;
+    font-size: 14px;
+    padding:7px 0 5px 0;
+    letter-spacing: 1px;
+}
+#hd .title{
+    color:#333;
+    font-style: normal;
+}
+#hd .zan{
+    float: right;
+    color:#999;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+}
